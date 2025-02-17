@@ -1,0 +1,5 @@
+/target
+
+# Input files
+*.csv
+*.csv.gz

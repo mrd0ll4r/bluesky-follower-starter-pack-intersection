@@ -1,0 +1,18 @@
+[package]
+name = "follower_starter_pack_intersection"
+description = "A tool to intersect a set of follow operations with a list of sets of starter pack members."
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.3.1"
+serde = "1.0.216"
+libflate = "2.1.0"
+rayon = "1.10.0"
+chrono = "0.4.39"
+
+log = "0.4.22"
+flexi_logger = "0.29.8"
+anyhow = "1.0.94"
+clap = { version = "4.5.23" , features = ["cargo"]}
+itertools = "0.13.0"
